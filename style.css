@@ -1,0 +1,43 @@
+body {
+  background: #eee;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login_container {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.1);
+  padding: 20px 30px;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.6);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login_btn {
+  width: 100%;
+}
+
+.login_title {
+  background: rgba(10,10,10,0.2);
+  color: white;
+  text-align: center;
+  margin-bottom: 19px;
+  padding: 5px;
+}
